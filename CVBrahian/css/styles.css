@@ -1,0 +1,61 @@
+/*---- Header ----*/
+.img-redonda {
+    border-radius:160px;
+    border:10px solid #666;
+    display: block;
+    height:220px;
+    margin: auto;
+    text-align: center;
+    width:220px;
+}
+
+.title {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/*---- Section ----*/
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+h3, h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times new Roman';
+    font-size: 20px;
+    padding: 3px 0px;
+    padding-left: 5px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+.sin-vinetas {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.li-align {
+    text-indent: 78px;
+}
+
+/*---- Footer ----*/
+footer {
+    align-items: center;
+    background-color: #005677;
+    color: white;
+    display: flex;
+    height: 37px;
+    justify-content: center;
+}
+
+footer img {
+    padding-left: 8px;
+}
