@@ -1,0 +1,20 @@
+/*Header*/
+h1 {
+    font-family: 'Fruktur', cursive;
+    position: absolute;
+    font-size: 2em;
+    top: 5%;
+}
+
+h3 {
+    top: 10%;
+    position: absolute;
+    color: rgb(205, 207, 202);
+}
+
+/*Body*/
+body {
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    margin: 0;
+    padding: 0;
+}
