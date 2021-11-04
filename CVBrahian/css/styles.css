@@ -10,24 +10,30 @@
 }
 
 .title {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 35px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+header {
+    background-image: url('../img/banner.jpg');
+    background-size: 100%;
+    padding-top: 15px;
 }
 
 /*---- Section ----*/
 body {
     margin: 0;
     padding: 0;
-    padding-top: 15px;
 }
 
 h3, h1 {
     background-color: #C4C4C4;
     color: #005677;
-    font-family: 'Times new Roman';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    padding: 3px 0px;
+    padding: 8px 0px 5px 5px;
     padding-left: 5px;
     text-transform: uppercase;
     width: auto;
@@ -44,6 +50,29 @@ span {
 
 .li-align {
     text-indent: 78px;
+}
+
+.btn-flotante {
+    background-color: #005677;
+    border-radius: 100px;
+    bottom: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #ffffff; 
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 18px 20px;
+	position: fixed;
+	right: 10px;
+    text-decoration: none;
+	transition: all 300ms ease 0ms;
+    z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #ffffff;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    color: #005677;
+	transform: translateY(-7px);
 }
 
 /*---- Footer ----*/
