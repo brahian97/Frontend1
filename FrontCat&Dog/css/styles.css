@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/*----HEADER----*/
+.button-nav {
+    background-color: black;
+    color: white;
+    height: inherit;
+    float: right
+}
+
+.div-descuentos {
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+.nav-menu {
+    align-items: center;
+    background-color: #F0A83E;
+    height: 60px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+.nav-menu span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    float: right;
+}
+
+.nav-menu ul li {
+    color: white;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/*----MAIN----*/
+
+.img-main {
+    width: 100%;
+}

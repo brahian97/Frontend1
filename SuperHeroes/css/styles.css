@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+/*----HEADER----*/
+.descuento {
+    background-color:#1CD1B0;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 1vw;
+}
+
+.titulo {
+    background-color:#00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-weight: lighter;
+    margin-bottom: 20vh;
+    padding: 1vh 2vw;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+/*----HEADER----*/
+
+/*----MAIN----*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    max-width: 20vw;
+}
+
+.corazon {
+    color: red;
+    font-size: 20px;
+    left: 5%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.card-img img.banner {
+    width: 100%;
+}
+
+.card-info {
+    font-family: Roboto;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.card-info>p {
+    padding: 5% 10%;
+    text-align: justify;
+}
+
+.card-buton {
+    background-color: #00669F;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    text-decoration: none;
+    max-width: 50%;
+}
+
+.img-perfil {
+    border-radius: 60px;
+    position: absolute;
+    bottom: -25%;
+}
+/*----MAIN----*/
+
+/*----FOOTER----*/
+footer {
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    font-family: Roboto;
+    height: 51px;
+    margin-top: 10%;
+    justify-content: center;
+}
+/*----FOOTER----*/

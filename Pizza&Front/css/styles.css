@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-nav {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+
+.menu-ul {
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu-ul li {
+    padding-left: 10px;
+}
