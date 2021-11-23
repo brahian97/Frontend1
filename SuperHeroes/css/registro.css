@@ -1,0 +1,58 @@
+h1 {
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section form label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input, select {
+    height: 35px;
+    width: 30vw;
+}
+
+.botonera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 30vw;
+}
+
+.btn {
+    border: none;
+    border-radius: 23.011px;
+    font-weight: bold;
+    width: 46%;
+}
+
+.btn-registro {
+    background-color: #1CD1B0;
+    color: black;
+}
+
+.btn-resetear {
+    background-color: #888888;
+    color: white;
+}
+
+section p {
+    margin-top: 30px;
+}
+
+section p a {
+    text-decoration: none;
+}
