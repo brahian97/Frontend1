@@ -1,50 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
-}
-/*----HEADER----*/
-.button-nav {
-    background-color: black;
-    color: white;
-    height: inherit;
-    float: right
+    font-family: Roboto;
 }
 
+/*----HEADER----*/
 .div-descuentos {
+    align-items: center;
     background-color: black;
     color: white;
+    display: flex;
     height: 20px;
+    justify-content: space-around;
+    padding: 0px 60px;
+    max-width: 100%;
+}
+
+.button-nav {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.button-nav:hover {
+    color: aqua;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.nav-ul, .nav-ul-menu {
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-ul li {
+    padding-right: 10px;
 }
 
 .nav-menu {
     align-items: center;
     background-color: #F0A83E;
-    height: 60px;
+    color: white;
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+    padding: 0px 40px;
 }
 
-.nav-menu a {
-    text-decoration: none;
-}
-
-.nav-menu span {
-    font-family: 'Roboto', sans-serif;
+.title {
+    align-items: center;
+    display: flex;
     font-size: 20px;
     font-weight: bold;
 }
 
-.nav-menu ul {
-    float: right;
+.title-1 {
+    color: black;
 }
 
-.nav-menu ul li {
+.title-2 {
     color: white;
-    display: inline;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+}
+
+.title-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.menu-hamburguesa {
+    display: none;
+}
+
+.nav-menu input[type="checkbox"], .nav-menu .fa-bars, .nav-menu .fa-times {
+    display: none;
+}
+
+/*----HEADER----*/
+
+/*----MAIN----*/
+main {
+    position: relative;
+}
+
+.menu-lateral {
+    background-color: #F0A83E;
+    color: white;
+    display: none;
+}
+
+.banner {
+    align-items: center;
+    background-image: url('../img/bowl-and-pet.png');
+    background-size: cover;
+    display: flex;
+    height: 489px;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.text-banner {
+    text-align: center;
+    padding-right: 30px;
+}
+
+.text-banner h3 {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.text-banner p {
+    font-size: 16px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.text-banner a {
+    background-color: #F0A83E;
+    color: white;
+    padding: 15px 23px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /*----MAIN----*/
 
-.img-main {
+/*----SECTION----*/
+.products{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products img {
+    height: 71px;
+    width: 67px;
+}
+
+.products h2 {
+    margin: 0px;
+}
+
+.products-ul {
+    color: #666666;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.products-ul li {
+    padding-right: 10px;
+}
+
+.products-ul li:last-child {
+    padding-right: 0px;
+}
+
+.title-products {
+    color: #3C2313;
+    font-size: 40PX;
+}
+
+.card {
+    background-color: #FBFAF6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 265px;
+    height: 268.86px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
+}
+
+.card-title {
+    color: #3C2313;
+    font-size: 15px;
+}
+
+.price {
+    color: #F0A83E;
+    font-size: 15px;
+}
+
+.contactanos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-contact {
+    color: #3C2313;
+    font-size: 25px;
+}
+
+.input-contact {
+    border-radius: 5px;
+    color: white;
+    background-color: #3C2313;
+}
+
+/*----SECTION----*/
+
+/*----FOOTER----*/
+footer {
+    background-color: #3C2313;
+    height: 284px;
+    margin-top: 20px;
+    width: 100%;
+}
+/*----FOOTER----*/
+
+@media (max-width: 712px) {
+    .text-banner {
+        text-align: right;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+    
+    /* .menu-lateral {
+        border-top: 1px solid black;
+        display: block;
+        height: 500px;
+        position: absolute;
+        width: 100%;
+    } */
+    
+    .nav-ul-menu {
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: space-evenly;
+        height: 100%;
+    }    
 }
