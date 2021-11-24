@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -28,7 +32,7 @@ body {
     color: aqua;
 }
 
-.push {
+.descuentos-boton {
     margin-left: auto;
 }
 
@@ -62,10 +66,12 @@ body {
 
 .title-1 {
     color: black;
+    padding-left: 6px;
 }
 
 .title-2 {
     color: white;
+    padding-right: 6px;
 }
 
 .title-icon {
@@ -174,7 +180,7 @@ main {
 
 .card {
     background-color: #FBFAF6;
-    margin-bottom: 20px;
+    margin: 0px 10px 20px;
     text-align: center;
 }
 
@@ -200,11 +206,15 @@ main {
     font-size: 15px;
 }
 
-.contactanos {
+.form-contactanos {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.section-contactanos {
+    text-align: center;
 }
 
 .title-contact {
@@ -212,10 +222,18 @@ main {
     font-size: 25px;
 }
 
+.input {
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    padding: 0px 10px;
+}
+
 .input-contact {
-    border-radius: 5px;
-    color: white;
     background-color: #3C2313;
+    color: white;
+    margin-bottom: 10px;
+    width: 40%;
 }
 
 /*----SECTION----*/
@@ -227,9 +245,52 @@ footer {
     margin-top: 20px;
     width: 100%;
 }
+
+.div-suscribete {
+    align-items: center;
+    display: flex;
+    background-color: #F0A83E;
+    flex-wrap: wrap;
+    min-height: 60px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.titulo-suscribete {
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 0px 15px 15px;
+}
+
+.div-suscribete form {
+    padding: 0px 15px 15px;
+}
+
+.titulo-suscribete h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.btn-suscribete {
+    background-color: #3C2313;
+    color: white;
+    height: 34px;
+}
+
+.input-suscribete {
+    min-width: 276px;
+}
 /*----FOOTER----*/
 
 @media (max-width: 712px) {
+    
+    .div-descuentos {
+        display: none;
+    }
+
     .text-banner {
         text-align: right;
     }
@@ -255,5 +316,9 @@ footer {
         font-size: 20px;
         justify-content: space-evenly;
         height: 100%;
-    }    
+    } 
+    
+    .input-contact {
+        width: 66%;
+    }
 }
