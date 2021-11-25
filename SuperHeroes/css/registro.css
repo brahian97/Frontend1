@@ -35,6 +35,7 @@ input, select {
 .btn {
     border: none;
     border-radius: 23.011px;
+    cursor: pointer;
     font-weight: bold;
     width: 46%;
 }
