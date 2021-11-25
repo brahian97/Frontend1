@@ -176,6 +176,7 @@ main {
 .title-products {
     color: #3C2313;
     font-size: 40PX;
+    text-align: center;
 }
 
 .card {
@@ -293,6 +294,10 @@ footer {
 
     .text-banner {
         text-align: right;
+    }
+
+    .text-banner h3 {
+        font-size: 23px;
     }
 
     .menu-hamburguesa {
